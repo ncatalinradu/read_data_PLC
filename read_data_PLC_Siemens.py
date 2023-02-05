@@ -14,4 +14,5 @@ Start = 0
 Size = 4
 
 db = plc.db_read(DB_nr, Start, Size)
+print (db[0], db[1], db[2], db[3])
 
